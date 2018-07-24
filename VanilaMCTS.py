@@ -308,7 +308,7 @@ class VanilaMCTS(object):
         print(' [-] searching depth = %d' % (depth_searched))
 
         # FOR DEBUGGING
-        fig = plt.figure(figsize=(7,7))
+        fig = plt.figure(figsize=(5,5))
         for a in action_candidates:
             # print('a= ', a)
             _node = self.tree[(0,)+(a,)]
